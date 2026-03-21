@@ -1,0 +1,12 @@
+ .nav--container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20%;
+    
+}
+
+.nav--container a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+}

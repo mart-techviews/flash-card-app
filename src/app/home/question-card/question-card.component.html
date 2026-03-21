@@ -1,0 +1,8 @@
+<div class="question--card--container">
+    <div class="questions" *ngIf="!flashCardService.showAnswer" >
+         {{flashCardService.cards[flashCardService.currentIndex].question}}<!--to be updated dynamically-->
+    </div>
+    <div class="questions" *ngIf="flashCardService.showAnswer" >
+         {{flashCardService.cards[flashCardService.currentIndex].answer}}<!--to be updated dynamically-->
+    </div>
+</div>

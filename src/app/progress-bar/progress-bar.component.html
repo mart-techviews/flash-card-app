@@ -1,0 +1,6 @@
+<div class="progress--container">
+    <div class="progress--bar" [style.width.%]="this.flashCardService.progressValue">
+        <span class="progress--text" *ngIf="this.flashCardService.progressValue">{{this.flashCardService.progressValue}}%</span>
+    </div>
+    
+</div>

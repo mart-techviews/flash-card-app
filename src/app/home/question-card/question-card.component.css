@@ -1,0 +1,32 @@
+/* .question--card--container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px; /* Gives the card breathing room vertically */
+  /*padding: 20px;
+} */
+
+.questions {
+  background-color: #ffffff;
+  /* width: 100%; */
+  max-width: 500px;      /* Prevents it from getting too wide */
+  min-height: 200px;     /*Gives it a "card" shape */ 
+  
+  /* Centering the text inside the card */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* Typography for the "Bold" look */
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2d3436;
+  padding: 50px;
+  background-color: blanchedalmond;
+  border-radius: 12px;
+  margin-bottom: 5px;
+  /* Card Aesthetics */
+  /* border-radius: 12px;
+  border: 2px solid #e1e1e1;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Subtle depth */
+} 

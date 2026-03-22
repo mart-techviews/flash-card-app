@@ -2,11 +2,18 @@
     width: 70%;
     max-width: 600px;         /* Control the overall width of your card system */
     margin: 0 auto; 
+
     border-radius: 10px;
     border: 2px solid #e1e1e1;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+
     padding: 10px;
     margin-bottom: 5px;
+    /* height: 10px;  */
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
 
 }
 
@@ -15,7 +22,19 @@
     background-color: blanchedalmond; /* Green progress color */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     transition: width 0.5s ease-in-out; 
+    border-radius: 10px;
 }
 
+.progress--text{
+    /* font-size: 14px; */
+    font-weight: bold;
+    /* white-space: nowrap; */
+}
+.progress--count{
+    /* font-size: 14px;*/
+    white-space: nowrap;
+    margin-left: auto;
+    flex-shrink: 0;
+}

@@ -26,7 +26,7 @@ export class FlashCardService {
     new question('What is NaN in JavaScript?', 'NaN stands for "Not-a-Number" and represents a value that is not a valid number.'),
     new question('What is the difference between synchronous and asynchronous code?', '1. Synchronous code runs line by line, waiting for each task to finish. 2. Asynchronous code allows tasks to run in the background without blocking execution.'),
     new question('What is async/await?', 'async/await is a syntax used to handle asynchronous operations in a more readable way, making code look synchronous.'),
-    new question('What is localStorage  JavaScript?', 'localStorage is a web storage API that allows you to store data in the browser that persists even after the page is refreshed.')
+    new question('What is local Storage in JavaScript?', 'localStorage is a web storage API that allows you to store data in the browser that persists even after the page is refreshed.')
   ]
   
   getAllQuestions(){
